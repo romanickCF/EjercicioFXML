@@ -20,7 +20,7 @@
          <Label text="Introduce un elemento para la lista" />
          <FlowPane alignment="CENTER" columnHalignment="CENTER" hgap="20.0" prefHeight="50.0" prefWidth="233.0">
             <children>
-               <TextField fx:id="inputTextLista" />
+               <TextField fx:id="inputTextLista" onKeyTyped="#activarBoton" />
                 <Button fx:id="btnAñadir" onAction="#añadir" text="Añadir" />
             </children>
          </FlowPane>
